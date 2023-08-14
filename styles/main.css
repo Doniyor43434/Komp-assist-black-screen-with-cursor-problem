@@ -177,7 +177,7 @@ body {
     color: white;
     display:flex;
     background-color: rgb(58, 117, 176);
-    width: 100%;
+    flex:1;
     height: 200px;
     align-self: flex-end;
     font-size:12px;
