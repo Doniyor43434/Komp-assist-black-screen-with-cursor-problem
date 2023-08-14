@@ -8,6 +8,7 @@
     border-bottom: solid;
     border-bottom-width: 1px;
     border-bottom-color: lightgrey;
+    flex:1;
     
 }
 .website-logo {
