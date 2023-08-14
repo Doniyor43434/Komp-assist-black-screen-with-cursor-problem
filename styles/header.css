@@ -23,7 +23,7 @@
     justify-content: space-between;
     flex-direction: row;
     flex:1;
-    max-width: 600px;
+    
     min-width: 400px;
     margin-right:20px;
     border-left-style: solid;
@@ -47,4 +47,13 @@
     border-bottom-right-radius: 7px ;
     cursor:pointer;
     
+}
+.header-buttons:hover {
+    background-color:rgb(5, 104, 191);
+}
+@media (min-width:1000px) {
+    .header-buttons-row {
+        max-width: 700px;
+    }
+
 }
