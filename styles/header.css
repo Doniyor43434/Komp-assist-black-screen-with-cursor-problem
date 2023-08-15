@@ -57,3 +57,20 @@
     }
 
 }
+.header-buttons-active {
+    background-color:rgb(5, 104, 191);
+    color:white;
+    border-width: 3px;
+    border-color:rgb(0, 120, 225);
+    border-style:solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 7px ;
+    
+    
+}
+.header-buttons:hover {
+    background-color:rgb(5, 104, 191);
+}

@@ -29,7 +29,7 @@ body {
 
 }
 .up-icon {
-    width: 8mm;
+    width: 0.8cm;
     
 
 }
@@ -49,13 +49,11 @@ body {
     transition: 0.2s;
     z-index: 200;
 }
-.up-button:hover {
-    background-color: rgb(217, 228, 255);
-    border:solid 1px rgb(52, 96, 209);
-}
+
 .up-button:active {
     opacity: 0.6;
 }
+
 .left-side {
     
     
