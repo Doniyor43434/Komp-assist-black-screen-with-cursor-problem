@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-left:10px;
-    
+    height: 100%;
     margin-top:20px;
     
     padding-left:15px;
@@ -20,9 +20,9 @@ body {
     font-size: 18px;
 }
 .themes-layout {
-    display: grid;
-    grid-template-rows: 200px;
+    display: flex;
     margin-top: 40px;
+    margin-bottom: 500px;
 }
 
 .theme-link:link {
