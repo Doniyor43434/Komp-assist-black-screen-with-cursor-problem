@@ -9,15 +9,44 @@
     border-bottom-width: 1px;
     border-bottom-color: lightgrey;
     flex:1;
+    z-index: 2;
     
 }
+
 .website-logo {
     display: inline-block;
     border-radius:5px;
     width:200px;
-    height:70px;
+    height: 48px;
     object-fit: cover;
+    
+    
 }
+.hamburger-menu2 {
+    display: none;
+}
+.hamburger-menu-icon {
+    
+    width: 60px;
+    
+}
+
+@media (max-width:1000px) {
+    .header {
+        height: 180px;
+        
+        
+    }
+    .hamburger-menu2 {
+        margin: 0 30px 0 0; 
+        display: initial;
+    }
+    .website-logo {
+        width:400px;
+        height: 96px;
+    }
+}
+
 .header-buttons-row {
     display: flex;
     justify-content: space-between;
@@ -48,16 +77,62 @@
     cursor:pointer;
     
 }
+.header-buttons1 {
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border-width: 1px;
+    border-color:rgb(255, 255, 255);
+    border-style:solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 7px ;
+    cursor:pointer;
+    width:90%;
+    font-size: xx-large;
+    margin: 10px 0px 40px 30px;
+    
+    
+}
+.menu-list1 {
+    width: 30%;
+    display: none;
+    border-bottom: solid 2px rgb(129, 205, 231);
+    border-left: solid 2px rgb(129, 205, 231);
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+    
+    right: 0;
+    top: 0;
+    
+    background-color: white;
+}
 .header-buttons:hover {
     background-color:rgb(5, 104, 191);
 }
-@media (min-width:1000px) {
-    .header-buttons-row {
-        max-width: 700px;
+@media (max-width:1000px) {
+    .header-buttons-row, .header-buttons, .header-buttons-active {
+        display:none;
     }
 
 }
 .header-buttons-active {
+    background-color:rgb(5, 104, 191);
+    color:white;
+    border-width: 1px;
+    border-color:rgb(0, 120, 225);
+    border-style:solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 7px ;
+    
+    
+}
+.header-buttons-active1 {
     background-color:rgb(5, 104, 191);
     color:white;
     border-width: 3px;
@@ -73,4 +148,42 @@
 }
 .header-buttons:hover {
     background-color:rgb(5, 104, 191);
+}
+.hamburger-menu1-parent {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    border-bottom: solid 1px black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hamburger-menu1 {
+    margin-right: 55px;
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+.phone-menu-list-buttons {
+    margin-top: 10px;
+    font-size: 40px;
+}
+.phone-menu-list-buttons1 {
+    margin-top: 50px;
+}
+.header-buttons1-active {
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border-width: 1px;
+    border-color:rgb(186, 186, 186);
+    border-style:solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 7px ;
+    cursor:pointer;
+    width:90%;
+    font-size: xx-large;
+    margin: 10px 0px 40px 30px;
+    
+    
 }

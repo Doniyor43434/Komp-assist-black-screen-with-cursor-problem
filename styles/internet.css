@@ -1,0 +1,104 @@
+.internet-main {
+padding: 20px 50px 10px 50px;
+}
+.internet-main-background {
+    background-color: white;
+    padding: 50px 50px 200px 50px;
+        
+}
+.internet-container {
+    display:flex;
+    flex-direction:column;
+}
+.internet-website-unit {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightgray;
+}
+.internet-website-unit-image {
+    width:200px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
+.internet-website-unit-image-parent {
+    border-right: solid 1px lightgray;
+}
+.internet-website-unit-description {
+    display: flex;
+    flex-direction: column;
+
+}
+.internet-website-unit-description-headline-parent {
+    padding: 0 0 0 30px;
+}
+.internet-website-unit-description-text-parent {
+    padding: 0 0 0 30px;
+}
+.internet-website-unit-description-date-parent {
+    padding: 0 0 0 30px;
+    color: gray;
+    font-size:small;
+}
+@media (max-width:1100px) {
+    .internet-main-background {
+        font-size:20px;
+    }
+    .internet-container {
+        display:flex;
+        flex-direction:column;
+    }
+    .internet-website-unit {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid lightgray;
+        height: fit-content;
+        margin-bottom: 10px;
+    }
+    .internet-website-unit-image {
+        width:300px;
+        height: 300px;
+        object-fit: contain;
+        object-position: center;
+    }
+    .internet-website-unit-image-parent {
+        
+        margin-left: 10px;
+        
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    
+    .internet-website-unit-description {
+        display: flex;
+        flex-direction: column;
+        padding-right: 10px;
+    
+    }
+    .internet-website-unit-description-headline-parent {
+        padding: 0 0 0 30px;
+        font-size: 24px;
+        margin: 0;
+    }
+    .internet-website-unit-description-text-parent {
+        padding: 0 0 0 30px;
+        font-size: 24px;
+    }
+    .internet-website-unit-description-date-parent {
+        padding: 0 0 0 30px;
+        font-size: 30px;
+        color: gray;
+        
+    }
+    .internet-website-unit-description-text {
+        font-size:35px;
+        margin: 10px 0 0 0;
+    }
+    .internet-website-unit-description-headline {
+        font-size: 50px;
+        margin: 10px 0 0 0;
+    }
+    .internet-main-background-headline {
+        margin-bottom: 60px;
+    }
+}

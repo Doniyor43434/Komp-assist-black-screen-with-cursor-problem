@@ -1,0 +1,466 @@
+.header {
+    display: flex;
+    padding-left:20px;
+    padding-right:20px;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgrey;
+    flex:1;
+    z-index: -10;
+    position: relative;
+    
+}
+
+
+.space-image-layout {
+    position: relative;
+}
+.space-background-image-headline {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    
+    
+    margin: 50px 50px 0 50px;
+    
+    
+}
+.background-image-parent {
+    
+    background-color: rgb(4, 22, 46);
+    z-index: -1;
+    height: 800px;
+    
+    
+}
+
+.space-background-image {
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+    object-position: top;
+}
+.background-image-title {
+    color: white;
+    font-size:50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+    
+    z-index: 100;
+    white-space: nowrap;
+    transition: all 0.2s;
+    
+}
+.background-image-title:active {
+    font-size: 20px;
+}
+.background-image-title-under {
+    display: flex; 
+    justify-content:center; 
+    margin-top:40px;
+    transition: all 0.2s;
+}
+
+.welcomepage-whitecolor-p {
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    transition: all 0.2s;
+}
+.welcomepage-whitecolor-p:active {
+    font-size:20px;
+}
+.background-image-title1 {
+    color: white;
+    font-size:20px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    
+
+    
+    z-index: 100;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+    
+
+.background-image-title1:active {
+    font-size: 10px;
+}
+.albatta-button-parent {
+    margin: 200px 0 200px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+    
+
+}
+.albatta-button {
+    color: white;
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(110, 185, 110);
+    font-size: 20px;
+    font-weight:bold;
+    z-index: 2;
+    transition: all 0.2s;
+}
+.albatta-button:active{
+    color: white;
+    padding: 15px 30px 15px 30px;
+    
+    font-size: 5px;
+    font-weight:bold;
+    z-index: 2;
+    background-color:rgb(53, 72, 53);
+}
+
+
+#mydiv1 {
+    position: absolute;
+    bottom: 10px;
+    left: 220px;
+    
+    
+ 
+   
+}
+#mydiv2 {
+    position: absolute;
+    bottom: 100px;
+    right: 120px;
+}
+#mydiv3 {
+    position: absolute;
+    top: -20px;
+    left: 320px;
+    
+}
+
+#mydiv1header, #mydiv2header, #mydiv3header {
+    width: fit-content;
+    cursor: move;
+    
+   
+   
+}
+.rocket {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    object-position: left bottom;
+}
+.blue-planet {
+    object-fit: cover;
+    width: 260px;
+    height: 200px;
+    object-position: left bottom;
+}
+.orange-planet {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    object-position: left bottom;
+}
+#mydiv11 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    display: none;
+    
+    
+ 
+   
+}
+#mydiv21 {
+    position: absolute;
+    bottom: -1000px;
+    right: 120px;
+    z-index: 1;
+    display: none;
+}
+#mydiv31 {
+    position: absolute;
+    top: -20px;
+    left: 320px;
+    display: none;
+    
+}
+/*         White background   IS here*/
+.bottom-background-side{
+   
+    background-color: rgb(4, 22, 46);
+    border-top: solid purple 2px;
+    padding:60px 0px 100px 0px; 
+    margin: 0px 60px 0px 40px;
+    transition: 0.5s;
+    
+}
+.bottom-background-side:active {
+    border-top: solid rgb(221, 1, 221) 3px;
+}
+.bottom-background-side-headline {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.container-ranks {
+    display: flex;
+    justify-content: space-between;
+}
+.ranks {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(8, 23, 43); 
+    padding-right: 10px;
+    border-left: solid purple 1px;
+
+}
+.ranks:active {
+    border-left: solid rgb(28, 0, 128) 1px;
+}
+
+
+.white-color-text-headline {
+    margin: 0 0 0 10px;
+    
+    
+    color: white;
+    font-size: x-large;
+    
+}
+.white-color-text {
+    color: white;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 20px;
+}
+.white-color-text1 {
+    color: white;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 20px;
+    width: 800px;
+    margin: 0 0 0 60px;
+} 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.ranks-round-image-parent {
+    display: flex;
+    justify-content: center;
+    
+     
+}
+
+.ranks-round-image {
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-position: center;
+}
+.welcomepage-short-aboutus-text-parent {
+    border-bottom: 2px purple solid;
+    padding-bottom: 60px;
+    transition: all 0.5s;
+    
+
+}
+.welcomepage-short-aboutus-text-parent:active {
+    border-bottom:solid rgb(221, 1, 221) 3px;
+}
+.short-aboutus-headline {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 80px 0px 40px 60px;
+
+}
+.short-aboutus-text-parent {
+    color: white;
+    margin: 0px 0 0 20px;
+
+}
+.categories {
+    margin: 100px 0 0 50px;
+  
+}
+.categories-headline {
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.category-list-component-parent {
+    margin-top: 30px;
+}
+.category-list-component-parent a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: transparent;
+}
+.category-list-component-parent a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: transparent;
+}
+.category-list-component-parent a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: transparent;
+}
+.category-list-component-parent a:hover {
+    color: purple;
+    text-decoration: none;
+    background-color: transparent;
+} 
+.category-list-component {
+    margin:20px 0px 20px 20px;
+
+
+}
+@media (max-width: 1100px) {
+    .space-image-layout {
+        height:2000px;
+    }
+    
+    .background-image-title {
+        font-size: 60px;
+        margin-top: 500px;
+        margin-bottom: 150px;
+    }
+    .background-image-title1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        
+    }
+    .welcomepage-whitecolor-p {
+        font-size: 40px;
+        margin-top: 5px;
+        font-weight: 800;
+    }
+    .background-image-title-under {
+        margin-top: 5px;
+        font-size: 30px;
+    }
+    .albatta-button {
+        font-size: 50px;
+    }
+    /* Draggable divs are located HERE v*/
+    #mydiv11 {
+        position: absolute;
+        bottom: 510px;
+        left: 120px;
+        display: block;
+        
+        
+     
+       
+    }
+    #mydiv21 {
+        position: absolute;
+        bottom: 100px;
+        right: 120px;
+        z-index: 1;
+        display: block;
+    }
+    #mydiv31 {
+        position: absolute;
+        top: 40px;
+        left: 500px;
+        display: block;
+        
+    }
+    .rocket {
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        object-position: left bottom;
+        display: none;
+    }
+    .blue-planet {
+        object-fit: cover;
+        width: 260px;
+        height: 200px;
+        object-position: left bottom;
+        display: none;
+    }
+    .orange-planet {
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+        object-position: left bottom;
+        display: none;
+    }
+    .rocket1 {
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+        object-position: left bottom;
+    }
+    .blue-planet1 {
+        object-fit: cover;
+        width: 390px;
+        height: 300px;
+        object-position: left bottom;
+    }
+    .orange-planet1 {
+        object-fit: cover;
+        width: 225px;
+        height: 225px;
+        object-position: left bottom;
+    }
+    /* Bottom side*/
+    .bottom-background-side-headline {
+        font-size: 36px;
+    }
+    .container-ranks {
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    .ranks {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+        height: 200px;
+        background-color: rgb(8, 23, 43); 
+        padding-right: 10px;
+    
+    }
+    .ranks-round-image {
+        object-fit: cover;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        object-position: center;
+    }
+    .white-color-text-headline {
+        font-size: 40px;
+        margin-bottom: 40px;
+        margin-left: 50px;
+    }
+    .white-color-text {
+        font-size: 28px;
+    }
+    .category-list-component {
+        margin:30px 0px 20px 30px;
+        font-size: 35px;
+    
+    }
+}
+

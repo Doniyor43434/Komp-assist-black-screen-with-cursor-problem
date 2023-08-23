@@ -1,0 +1,111 @@
+.yangiliklar-main {
+    display: flex;
+    
+    margin-left:10px;
+    
+    margin-top:20px;
+    
+    
+    
+    line-height: 1.5;
+    font-size: 18px;
+    padding:0 0 0 15px;
+}
+.yangiliklar-left-side-headline-parent {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    border-radius: 3px;
+    border-bottom: solid 2px rgb(6, 53, 110);
+    border-right: solid 2px rgb(9, 72, 148);
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    margin: 0px -40px 0px -40px;
+
+}
+.yangiliklar-left-side-headline-image-parent {
+    margin:5px 30px 5px 5px;
+}
+.yangiliklar-left-side-headline-image {
+    height: 60px;
+}
+.yangiliklar-left-side-news-unit {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(185, 185, 185);
+    
+    padding: 0 0 10px 20px;
+    margin: 5px 0px 6px 0;
+    background-color: rgb(120, 192, 255);
+}
+.yangiliklar-left-side-news-unit1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(185, 185, 185);
+    padding: 0 0 10px 20px;
+    margin: 5px 0px 6px 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+.yangiliklar-left-side-news-unit-date {
+    font-weight: bold;
+    margin: 0;
+}
+.yangiliklar-left-side-news-unit-text {
+    margin: 0px;
+}
+@media (max-width:1100px) {
+    .yangiliklar-main {
+        display: flex;
+        
+        margin-left:10px;
+        
+        margin-top:20px;
+        
+        
+        
+        line-height: 1.5;
+        font-size: 18px;
+        padding:0 0 400px 15px;
+    }
+    .yangiliklar-left-side-headline-parent {
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 3px;
+        border: solid 1px rgb(233, 233, 233);
+        display: flex;
+        align-items: center;
+    
+    }
+    .yangiliklar-left-side-headline {
+        font-size: 60px;
+        font-weight: bolder;
+    }
+    .yangiliklar-left-side-headline-image-parent {
+        margin:5px 30px 5px 5px;
+    }
+    .yangiliklar-left-side-headline-image {
+        height: 60px;
+    }
+    .yangiliklar-left-side-news-unit {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(237, 236, 236);
+        padding: 0 0 0 20px;
+        margin: 5px 0px 20px 0;
+    }
+    .yangiliklar-left-side-news-unit-date {
+        font-weight: bold;
+        margin: 0;
+        font-size: 46px;
+    }
+    .yangiliklar-left-side-news-unit-text {
+        margin: 0px;
+        font-size: 46px;
+    }
+    .yangiliklar-left-side-news-unit-link {
+        font-size: 46px;
+    }
+}

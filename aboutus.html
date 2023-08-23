@@ -28,8 +28,13 @@
     </head>
     <body class="about-us-body">
         <div class="header">
-            <div>
-                <img class="website-logo" src="images\2485ea1d73ec4859867b2fcf4248fbdb.png">
+            <a href="index.html">
+                <div>
+                    <img class="website-logo" src="images\2485ea1d73ec4859867b2fcf4248fbdb.png">
+                </div>
+            </a>
+            <div id="hamburger-menu" class="hamburger-menu2">
+                <img src="images\Hamburger_icon.svg.png" class="hamburger-menu-icon">
             </div>
             <div class="header-buttons-row">
                 <div>
@@ -38,25 +43,21 @@
                     
                 </div>
                 <div>
-                    <a href="construction.html">
+                    <a href="homepage.html">
                         <button class="header-buttons">Mavzular</button>
                     </a>
                 </div>
                 <div>
-                    <a href="construction.html">
+                    <a href="internet.html">
                         <button class="header-buttons">Internet</button>
                     </a>
                 </div>
                 <div>
-                    <a href="construction.html">
-                        <button class="header-buttons">Forum</button>
+                    <a href="yangiliklar.html">
+                        <button class="header-buttons">Yangiliklar</button>
                     </a> 
                 </div>
-                <div>
-                    <a href="construction.html">
-                        <button class="header-buttons">Yangiliklar</button>
-                    </a>
-                </div>
+                
             </div>
   
         </div>
@@ -66,7 +67,7 @@
                     <img src="images\2485ea1d73ec4859867b2fcf4248fbdb.png" class="website-logo1">
                 </div>
                 <div class="center-horizontally">
-                    <h1>Biz haqimizda:</h1>
+                    <h1 class="h1">Biz haqimizda:</h1>
                     
                 </div>
                 <div class="div4">
@@ -80,10 +81,13 @@
                         </p>
                         
                     </div>
-                    <div class="image-layout">
-                        <img src="images\Programmers-working-in-teams.webp" class="aboutus-images">
-                        <img src="images\Без названия.jpg" class="aboutus-images1">
+                    <div class="image-layout-parent">
+                        <div class="image-layout">
+                            <img src="images\Programmers-working-in-teams.webp" class="aboutus-images">
+                            <img src="images\Без названия.jpg" class="aboutus-images1">
+                        </div>
                     </div>
+                    
                 </div>
                 <div class="thin-line1"></div>
                 <div class="text-paragraph">
@@ -111,42 +115,109 @@
 
 
 
-
+        
         <div class="up-footer">
             <div>
                 <img class="website-logo1" src="images\2485ea1d73ec4859867b2fcf4248fbdb.png">
             </div>
             <div class="like-icon-button">
                 <img class="like-icon"src="images\Facebook_Thumb_icon.svg.png">
-                
+                    
             </div>
-            
-            
+                
+                
         </div>
         <div class="up-footer2">
-
+    
         </div>
-        
-        <footer class="end-page">
+            
+        <footer class="end-page1">
             <div class="footer-div1">
                 <div>
                     <div>Copyright © Komp Assist.uz </div>
                     <p></p>
                     <div>ALL RIGHTS RESERVED</div>
                 </div>
-                
-                
+                        
+                        
             </div>
             <div class="footer-div1 stars-div">
                 <div>
                     <img src="images\Rating_stars_4.5.svg.png" class="stars">
                 </div>
-                
-                <div>167 ovoz</div>
+                        
+            <div>167 ovoz</div>
+            </div>
+        </footer>
+            
+        
+        
+            
+            
+        
+
+        <!-- END OF THE FOOTER-->
+
+
+        <div id="menu-list" class="menu-list1" >
+            <div class="hamburger-menu1-parent" >
+                <div id="hamburger-menu1" class="hamburger-menu1" >
+                    <img src="images\Hamburger_icon.svg.png" class="hamburger-menu-icon">
+                </div>
             </div>
             
             
-        </footer>
+            <div class="phone-menu-list-buttons1">
+                
+                <button class="header-buttons1-active">Biz haqimizda</button>
+                
+            </div>
+            <div class="phone-menu-list-buttons">
+                <a href="homepage.html">
+                    <button class="header-buttons1">Mavzular</button>
+                </a>
+            </div>
+            <div class="phone-menu-list-buttons">
+                <a href="internet.html">
+                    <button class="header-buttons1">Internet</button>
+                </a>
+            </div>
+            
+            <div class="phone-menu-list-buttons">
+                <a href="yangiliklar.html">
+                    <button class="header-buttons1">Yangiliklar</button>
+                </a>
+            </div>
+            
+        </div>
         
+        <script>
+            // Get references to the button and the element to toggle
+            const toggleButton = document.getElementById("hamburger-menu");
+            const elementToToggle = document.getElementById("menu-list");
+
+            // Add click event listener to the button
+            toggleButton.addEventListener("click", function() {
+            // Toggle the visibility of the element
+            if (elementToToggle.style.display === "none") {
+                elementToToggle.style.display = "block";
+            } else {
+                elementToToggle.style.display = "none";
+            }
+            });
+            // Get references to the button and the element to toggle
+            const toggleButton1 = document.getElementById("hamburger-menu1");
+            
+
+            // Add click event listener to the button
+            toggleButton1.addEventListener("click", function() {
+            // Toggle the visibility of the element
+            if (elementToToggle.style.display === "none") {
+                elementToToggle.style.display = "block";
+            } else {
+                elementToToggle.style.display = "none";
+            }
+            });
+       </script>
     </body>
 </html>

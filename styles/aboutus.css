@@ -1,6 +1,7 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
+    
 }
 .about-us-body {
     background-repeat: no-repeat;
@@ -30,10 +31,11 @@ body {
     margin-top: 100px;
     display: flex;
     justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .text-paragraph {
+    
     width:60vw;
     line-height: 2;
     margin-right: 30px;
@@ -91,4 +93,62 @@ body {
     display: flex;
     margin-bottom: 30px;
 
+}
+@media (max-width: 1100px) {
+    .image-layout-parent {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .image-layout {
+        flex-direction: row;
+        width: fit-content;
+        padding-right: 40px;
+        border-top-right-radius: 40px;
+    }
+    .aboutus-images {
+        width:300px;
+    }
+    .aboutus-images1 {
+        width: 300px;
+    }
+    .text-paragraph {
+        font-size: xx-large;
+        width: 100%;
+        
+    }
+    .div4 {
+        display: contents;
+
+    }
+    .div5 {
+        font-size: 35px;
+    }
+    .aboutus-main {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        
+        padding: 10px 40px 10px 30px;
+    }
+    .thin-line1 {
+        margin: 100px 200px 400px 200px;
+        border-bottom:solid 1px;
+    }
+    .h1 {
+        font-size: 60px;
+    }
+}
+.end-page1 {
+    color: white;
+    display:flex;
+    background-color: rgb(58, 117, 176);
+    flex:1;
+    height: 200px;
+    
+    font-size: large;
+    justify-content: space-between;
+    
 }
