@@ -124,8 +124,8 @@
 
 #mydiv1 {
     position: absolute;
-    bottom: 10px;
-    left: 220px;
+    bottom: 400px;
+    right: 220px;
     
     
  
@@ -273,15 +273,13 @@
     object-position: center;
 }
 .welcomepage-short-aboutus-text-parent {
-    border-bottom: 2px purple solid;
+    
     padding-bottom: 60px;
     transition: all 0.5s;
     
 
 }
-.welcomepage-short-aboutus-text-parent:active {
-    border-bottom:solid rgb(221, 1, 221) 3px;
-}
+
 .short-aboutus-headline {
     color: white;
     font-weight: bold;
@@ -295,7 +293,7 @@
 
 }
 .categories {
-    margin: 100px 0 0 50px;
+    margin: 100px 0 300px 50px;
   
 }
 .categories-headline {
@@ -333,7 +331,19 @@
 }
 @media (max-width: 1100px) {
     .space-image-layout {
-        height:2000px;
+        position: relative;
+        height:fit-content;
+    }
+    .bottom-background-side-headline {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 60px;
+        display: none;
+    }
+    .space-image-layout {
+        height:1000px;
     }
     
     .background-image-title {
@@ -362,7 +372,7 @@
     /* Draggable divs are located HERE v*/
     #mydiv11 {
         position: absolute;
-        bottom: 510px;
+        bottom: 460px;
         left: 120px;
         display: block;
         
@@ -372,15 +382,15 @@
     }
     #mydiv21 {
         position: absolute;
-        bottom: 100px;
-        right: 120px;
+        bottom: 600px;
+        left: 120px;
         z-index: 1;
         display: block;
     }
     #mydiv31 {
         position: absolute;
         top: 40px;
-        left: 500px;
+        left: 600px;
         display: block;
         
     }
@@ -440,6 +450,7 @@
         height: 200px;
         background-color: rgb(8, 23, 43); 
         padding-right: 10px;
+        display: none;
     
     }
     .ranks-round-image {
@@ -453,14 +464,26 @@
         font-size: 40px;
         margin-bottom: 40px;
         margin-left: 50px;
+        display: none;
     }
-    .white-color-text {
-        font-size: 28px;
+    .white-color-text1 {
+        display: none;
     }
     .category-list-component {
         margin:30px 0px 20px 30px;
         font-size: 35px;
     
     }
+    .categories {
+        margin: 50px 0 100px 60px;
+    }
+    .short-aboutus-headline {
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 80px 0px 40px 60px;
+        display: none;
+    }
+    
 }
 
