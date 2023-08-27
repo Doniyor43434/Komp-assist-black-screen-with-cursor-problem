@@ -477,6 +477,11 @@
     .categories {
         margin: 50px 0 100px 60px;
     }
+    .categories-headline {
+        color:white;
+        font-weight: bold;
+        font-size: 60px;
+    }
     .short-aboutus-headline {
         color: white;
         font-weight: bold;

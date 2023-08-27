@@ -3,15 +3,7 @@ body {
     
     
 }
-.about-us-body {
-    background-repeat: no-repeat;
-    background-image: url(169204241845105580.jpg);
-    background-size: 100% 100%; 
-    
-    background-attachment: fixed;
-    
-    
-}
+
 .website-logo1 {
     display: inline-block;
     border-radius:5px;
