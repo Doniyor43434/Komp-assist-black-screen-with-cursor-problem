@@ -17,8 +17,9 @@
     display: inline-block;
     border-radius:5px;
     width:200px;
-    height: 48px;
+    height: 60px;
     object-fit: cover;
+    object-position: top;
     
     
 }
@@ -43,7 +44,7 @@
     }
     .website-logo {
         width:400px;
-        height: 96px;
+        height: 120px;
     }
 }
 
