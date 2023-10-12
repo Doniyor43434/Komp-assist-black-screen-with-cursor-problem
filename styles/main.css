@@ -184,11 +184,12 @@ body {
 }
 .end-page {
     color: white;
-    display:flex;
+    display: flex;
     background-color: rgb(58, 117, 176);
     padding-bottom: 50px;
     height: fit-content;
-    align-self: flex-end;
+    
+    
     font-size: large;
     justify-content: space-between;
     
@@ -217,7 +218,7 @@ body {
 }
 .up-footer {
     background-color: white;
-    margin-top: 20px;
+    padding-top: 10px;
     display: flex;
     justify-content:space-between;
 }
@@ -334,7 +335,7 @@ body {
     .left-side {
         width:100%;
         padding-left: 50px;
-        padding-right: 0px;
+        padding-right: 50px;
        
     }
     .main {
@@ -400,7 +401,7 @@ body {
         color: white;
         display:flex;
         background-color: rgb(58, 117, 176);
-        flex:1;
+        
         height: 300px;
         align-self: flex-end;
         font-size: large;
@@ -420,7 +421,7 @@ body {
     }
     .index-latest-content {
         background-color: white;
-        margin: 0px 0px 0px 0px;
+        margin: 200px 0px 0px 0px;
         
         
         
@@ -491,8 +492,8 @@ body {
         margin-left:20px;
     }
     .index-latest-content-theme-image {
-        width: 930px;
-        height: 500px;
+        width: 100%;
+        height:530px;
         
         object-fit: cover;
     }
@@ -502,6 +503,13 @@ body {
         margin: 0px 0px 0px 0px;
     
     }
+    .page-footer {
+        display: flex;
+        flex-direction: column;
+    }
+        
+
+
 }
 
 
